@@ -44,4 +44,5 @@ server {
         #}
 }
 
+## upstream will be generate at startup with --link parameter
 include upstream;
