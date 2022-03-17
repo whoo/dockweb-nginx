@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:11.2
 MAINTAINER derrierdo@gmail.com
 RUN apt-get -y update 
 RUN apt-get install -y nginx
